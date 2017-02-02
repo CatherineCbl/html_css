@@ -20,7 +20,7 @@ section p:last-child{/*dernierp*/
 }
 
 section p:nth-child(even){/*les p pairs*/
-  color: blue
+  color: blue;
 }
 
 section p:nth-child(odd){/*les p impairs*/
@@ -31,7 +31,7 @@ section p:nth-child(3), section p:nth-child(9){/*les p en position 3 et 9*/
   color: orange;
 }
 .zone1{/*on sélectionne une CLASS avec un . devant le nom de la classe*/
-  color:#dc143c
+  color:#dc143c;
 }
 .zone2{
   color: #008080;
