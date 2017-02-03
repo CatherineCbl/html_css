@@ -1,0 +1,8 @@
+section{
+  background: linear-gradient(to left, #40a497, #6840a4);
+/* Le dégradé démarre avec la 1ère couleur et fini avec la 2nde de en bas ici et dans le sens de gauche à droite(propriété'to left')*/
+width: 50%;
+height: 45em;
+margin: 0 auto;
+border-radius: 50%
+}
