@@ -1,0 +1,43 @@
+.c1, .c2, .c4, .c5{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    display: inline-block;
+    text-align: center;
+
+}
+.c1{
+    background-color:#43e07a;
+    border-radius: 50%;
+}
+.c2{
+    background-color:darksalmon;
+    border-radius:20% 40%;
+}
+.clear{
+    clear: both;
+}
+.c3{
+
+    width: 10em;
+    display: inline-block;
+
+}
+.c4{
+    background-color:cyan;
+    border-radius: 40% 0;
+
+
+
+}
+
+.c5{
+    background-color: green;
+    border-radius:10% 20% 30% 40%;
+
+}
+
+section div:nth-child(18){
+    background-color: red;
+}
