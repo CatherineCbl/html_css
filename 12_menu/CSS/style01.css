@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li{/*élément <li> de la liste <ul> située dans la balise <nav>*/
+    float: left;
+    list-style: none;
+}
+    nav ul ul{/*listes <ul> imbriquées dans des liste <ul>*/
+        display: none;/*masque les sous-listes <ul>*/
+    }
+    nav li{
+        background-color: #000;
+    }
+    nav li a{
+        text-decoration: none;/*supprime le souligné par défaut*/
+        color: #fff;
+        padding: 1em;
+        display: block;
+        width: 20%;
+    }
+    nav ul.menu-1 li.ss-menu:hover ul.menu-2{/*au survol de la souris des <ul> ayant la class .menu-2 imbriqués dans la class .ss-menu ouverture de menu déroulant*/
+        display: block;
+
+    }
+    nav li:hover, nav li.menu-2:hover{
+        background: #fda500;
+    }
