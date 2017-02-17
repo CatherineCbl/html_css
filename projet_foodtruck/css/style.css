@@ -1,0 +1,90 @@
+body{
+  font-family: 'Nova Round', sans-serif;
+  font-size: 20px;
+  /*background:linear-gradient(to left, #4565d8, #ffffff);*/
+  background-image: url(https://images7.alphacoders.com/316/316739.jpg);
+  background-size: cover;
+}
+.container-fluid1{
+    text-align: center;
+    background-color: #5c00ff;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 8px black;
+}
+.container-fluid{
+    text-align: center;
+    background-color: #5c00ff;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 8px black;
+    margin-top: 7%;
+}
+
+.menuheader-nav1{
+    padding-top: 0;
+    margin-right: 20%;
+}
+.menufooter-nav1{
+    padding-top: 45px;
+    text-decoration: none;
+    margin-right: 170px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.image1{
+    width:410px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 8px black;
+}
+.image1:hover{
+    box-shadow: 4px 4px 10px white;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 24%;
+}
+.imagelogo{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 5px black;
+    height: 180px;
+    width: 194px;
+}
+
+aside{
+    background-color: #5c00ff;
+    position: absolute;
+    left:5%;
+    height: 180px;
+    padding-right: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+h1{
+    padding-top: 20px;
+    font-family: 'Nosifer', cursive;
+    font-style: italic;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+}
+h1 a{
+    text-decoration: none;
+}
+h1:hover{
+    color:#fff;
+}
+ul{
+    margin-top: 20px;
+}
+
+.liste1{
+    list-style:square;
+}
